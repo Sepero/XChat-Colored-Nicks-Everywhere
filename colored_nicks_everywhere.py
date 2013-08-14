@@ -14,7 +14,6 @@ display = (__module_name__ + " " + __module_version__ + " has been loaded.",
         "Module URL: https://github.com/Sepero/xchat_colored_nicks_everywhere/",
         "Author: Sepero - sepero 111 @ gmail . com",
         " Remote Python developer and Linux administrator for hire.",)
-)
 
 for line in display:
     print("\0034" + line + "\003")
@@ -38,7 +37,7 @@ def check_message(word, word_eol, userdata):
 	line = colorRe.sub("",line_with_color)
 	
 	try:
-		# Do nothing with already processed lines.
+		# Do nothing with if the line has already been processed.
 		processed_lines.remove(nick+line_with_color)
 		return xchat.EAT_NONE
 	except:
