@@ -5,7 +5,7 @@ Colors nicks in chat text with the same color X-Chat uses to display nicks.
 
 Instructions for installing this plugin should be found on this page. http://xchat.org/faq/#q218
 
-This is an updated version of the original made by Paul "Joey" Clark. This updated version is a bit more cpu efficient, but was created with a two main goals in mind:
+This is an updated version of the original made by Paul "Joey" Clark. This updated version is a bit more cpu efficient, with these main goals:
 
 1. Create a collaborative location for contributors on github. https://github.com/Sepero/XChat-Colored-Nicks-Everywhere
 2. Simplify the code where ever possible.
